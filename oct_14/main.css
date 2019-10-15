@@ -8,6 +8,102 @@
     font-size: 16px;
 }
 
-html {
-    color: red;
+img {
+    width: 100%;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+}
+
+.right-nav ul {
+     padding: 0;
+     margin: 0;
+     display: flex;
+     list-style-type: none;
+}
+
+.right-nav a {
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.nav-items {
+    text-align: right;
+    overflow: hidden;
+    clear: both;
+    transition: 0.3s ease;
+}
+
+.nav-items a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+}
+
+/*hide the checkbox*/
+
+input#menu-icon-input {
+    display: none;
+}
+
+.right-nav ul {
+    display: block;
+}
+
+.right-nav label {
+    display: inline-flex;
+}
+
+.right-nav a {
+    display: block;
+    text-align: center;
+}
+
+.nav-items a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.nav-items {
+    max-height: 0;
+}
+
+input:checked ~ .nav-items {
+    max-height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+/*hide the menu button in large screen (above 768px)*/
+    .right-nav label {
+        padding: 10px 20px;
+        float: right;
+        display: none;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .right-nav label:hover {
+        background-color: black;
+        color: white;
+        transition: 0.3s ease;
+    }
 }
