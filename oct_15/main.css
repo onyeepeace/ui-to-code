@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: papayawhip;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-items {
+    padding: 0 200px;
+} 
+
+.logo {
+    padding-top: 10px;
+    width: 30px;
+    height: auto;
+}
+
+.logo-items {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.social-media-icons img {
+    width: 20px;
+    height: auto;
+    padding: 2px;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-image {
+    flex: 1;
+}
+
+.banner-text {
+    flex: 2;
+    padding-right: 15px;
+}
+
+.banner-image img {
+    width: 154px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner-text h1,p{
+    padding-bottom: 15px;
+}
+
+/* .btns {
+    display: block;
+    margin: auto;
+    align-content: center;
+} */
+
+.btns img {
+    width: 100px;
+    height: auto;
+    padding-right: 20px;
+}
+
+hr.orange-red {
+    height: 5px;
+    background-color: rgb(250, 105, 53) !important;
+    border: none;
+}
+
+.white-container {
+    padding: 0 200px;
+}
+
+section.white-container .sections {
+    display: flex;
+}
+
+.sections {
+    padding: 20px;
+}
+
+.first-section img {
+    width: 30px;
+    display: block;
+    margin: auto;
+}
+
+.first-section h1, h6, p {
+    text-align: center;
+}
+
+.first-section img, h1, h6 {
+    padding-bottom: 10px;
+}
+
+.second-section img {
+    width: 30px;
+    display: block;
+    margin: auto;
+}
+
+.second-section h1, h6, p {
+    text-align: center;
+}
+
+.second-section img, h1, h6 {
+    padding-bottom: 10px;
+}
+
+.third-section img {
+    width: 30px;
+    display: block;
+    margin: auto;
+}
+
+.third-section h1, h6, p {
+    text-align: center;
+}
+
+.third-section img, h1, h6 {
+    padding-bottom: 10px;
+}
+
+div.orange {
+    background-color: rgb(250, 105, 53);
+}
+
+div.orange p {
+    text-align: center;
+    padding: 30px;
+    font-size: 1rem;
+    color: white;
+}
+
+.grey-container {
+    background-color: rgb(76, 84, 94);
+    padding: 20px 200px 0 200px;
+}
+
+.grey-container h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+.two-divs1 {
+    display: flex;
+}
+
+.left-div1 {
+    flex: 1;
+    padding: 0 100px;
+}
+
+.right-div1 {
+    flex: 1;
+}
+
+.right-div1 img {
+    width: 200px;
+    height: auto;
+}
+
+.left-div1 h3 img {
+    width: 30px;
+}
+
+.left-div1 h3 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.left-div1 p {
+    color: wheat;
+}
+
+.darkgrey-container {
+    background-color: rgb(42, 49, 58);
+    padding: 20px 200px 0 200px;
+}
+
+.two-divs2 {
+    display: flex;
+}
+
+.left-div2 {
+    flex: 1;
+}
+
+.right-div2 {
+    flex: 1;
+    margin: 0px 200px 0px 0px;
+}
+
+.left-div2 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.right-div2 h3 img {
+    width: 30px;
+}
+
+.right-div2 h3 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.right-div2 p {
+    color: wheat;
+}
+
+.grey2-container {
+    background-color: rgb(76, 84, 94);
+    padding: 20px 200px 0 200px;
+}
+
+.two-divs3 {
+    display: flex;
+}
+
+.left-div3 {
+    flex: 1;
+    padding: 0 100px;
+}
+
+.right-div3 {
+    flex: 1;
+}
+
+.right-div3 img {
+    width: 200px;
+    height: auto;
+}
+
+.left-div3 h3 img {
+    width: 30px;
+}
+
+.left-div3 h3 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.left-div3 p {
+    color: wheat;
+}
+
+footer {
+    background-color: rgb(250, 105, 53);
+    padding: 0 200px;
+}
+
+.form-name, .form-email, .form-subject, .form-message {
+    padding-bottom: 20px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 20%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+hr.white {
+    height: 20px;
+    color: white;
+    border: none;
+}
